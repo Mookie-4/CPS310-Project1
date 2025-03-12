@@ -1,0 +1,25 @@
+name: Code Review
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  code_review:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Run code review
+      run: |
+        # Here you can run your code review tool, for example, a linter or a static analysis tool
+        echo "Running code review..."
+        # Example: Run ESLint
+        npm install
+        npx eslint.
