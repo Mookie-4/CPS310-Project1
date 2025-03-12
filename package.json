@@ -1,7 +1,7 @@
 {
   "name": "cps518-project1",
   "version": "1.0.0",
-  "description": "",
+  "description": "\"CPS518 Project 1\"",
   "main": "index.js",
   "directories": {
     "doc": "docs"
@@ -14,10 +14,16 @@
     "url": "git+https://github.com/Mookie-4/CPS310-Project1.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Gregp",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Mookie-4/CPS310-Project1/issues"
   },
-  "homepage": "https://github.com/Mookie-4/CPS310-Project1#readme"
+  "homepage": "https://github.com/Mookie-4/CPS310-Project1#readme",
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.0",
+    "@eslint/js": "^9.22.0",
+    "eslint": "^9.22.0",
+    "globals": "^16.0.0"
+  }
 }
